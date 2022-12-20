@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Page</title>
+    <!-- linking styles.css with index.html -->
+    <link rel = "stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <span class="title">Address Details</span>
+            <div class="input-field zipcode">
+                <input type="text" id="zipcode" value="" required>
+                <label for="zipcode">Zip code...</label>
+            </div>
+            <div class="input-field city">
+                <input type="text" id="city" value="" required>
+                <label for="city">City...</label>
+            </div>
+            <div class="input-field state">
+                <input type="text" id="state" value="" required>
+                <label for="city">State...</label>
+            </div>
+            <div class="input-field country">
+                <input type="text" id="country" value="" required></input>
+                <label for="city">Country...</label>
+            </div>
+        </div>
+        <p class="info" ></p>
+    </div>
+
+</body>
+<!-- connecting jquery file -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<!-- connecting html file with javascipt file -->
+<script src="function.js"></script>
+</html>
