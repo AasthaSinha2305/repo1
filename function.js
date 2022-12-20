@@ -1,4 +1,4 @@
-var input = document.querySelector('#zipcode');
+var input = document.querySelector('#pincode');
 var city = document.querySelector('#city');
 var state = document.querySelector('#state');
 var country = document.querySelector('#country');
