@@ -7,6 +7,7 @@ var codelength = /^\d{6}$/
 
 input.addEventListener('keyup', () => {
     if (input.value.match(codelength)) {
+        // if pincode of size
         $.ajax({
             type: "GET",
             url: "https://api.postalpincode.in/pincode/" + input.value,
@@ -22,7 +23,7 @@ input.addEventListener('keyup', () => {
 
     }
     else{
-        info.innerHTML = "Type valid zipcode";
+        info.innerHTML = "Type valid pincode";
         city.value = "No Response";
         state.value = "No Response";
         country.value = "No Response";
