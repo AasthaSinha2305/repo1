@@ -23,6 +23,9 @@ input.addEventListener('keyup', () => {
     }
     else{
         info.innerHTML = "Type valid zipcode";
+        city.value = "No Response";
+        state.value = "No Response";
+        country.value = "No Response";
     }
 
 }); 
